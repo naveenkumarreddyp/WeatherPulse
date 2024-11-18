@@ -242,7 +242,7 @@ import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiDust, WiStrongWind, WiHumidity,
 import { IoCloseCircle } from "react-icons/io5";
 
 // Replace with your OpenWeatherMap API key
-const APIKEY = import.meta.env.API_KEY;
+const APIKEY = import.meta.env.VITE_API_KEY;
 
 console.log("----APIKEY-----------", APIKEY);
 
