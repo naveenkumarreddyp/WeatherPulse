@@ -244,8 +244,6 @@ import { IoCloseCircle } from "react-icons/io5";
 // Replace with your OpenWeatherMap API key
 const APIKEY = import.meta.env.VITE_API_KEY;
 
-console.log("----APIKEY-----------", APIKEY);
-
 const WeatherIcon = ({ weatherMain }) => {
   const iconProps = { className: "w-16 h-16 md:w-24 md:h-24 text-white" };
   switch (weatherMain.toLowerCase()) {
