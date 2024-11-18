@@ -3,7 +3,7 @@
 // import { motion } from "framer-motion";
 // import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiDust } from "react-icons/wi";
 
-// const API_KEY = "d885aa1d783fd13a55050afeef620fcb"; // Replace with your OpenWeatherMap API key
+// const API_KEY = ""; // Replace with your OpenWeatherMap API key
 
 // const WeatherIcon = ({ weatherMain }) => {
 //   const iconProps = { className: "w-24 h-24 text-white" };
@@ -314,7 +314,7 @@ import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiDust, WiStrongWind, WiHumidity, WiBarometer } from "react-icons/wi";
 
-const API_KEY = "d885aa1d783fd13a55050afeef620fcb"; // Replace with your OpenWeatherMap API key
+const API_KEY = ""; // Replace with your OpenWeatherMap API key
 
 const WeatherIcon = ({ weatherMain }) => {
   const iconProps = { className: "w-24 h-24 text-white" };

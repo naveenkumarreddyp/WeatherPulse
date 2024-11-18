@@ -4,7 +4,7 @@
 // import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiDust, WiStrongWind, WiHumidity, WiBarometer } from "react-icons/wi";
 // import { IoCloseCircle } from "react-icons/io5";
 
-// const API_KEY = "d885aa1d783fd13a55050afeef620fcb"; // Replace with your OpenWeatherMap API key
+// const API_KEY = ""; // Replace with your OpenWeatherMap API key
 
 // const WeatherIcon = ({ weatherMain }) => {
 //   const iconProps = { className: "w-16 h-16 md:w-24 md:h-24 text-white" };
@@ -241,7 +241,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiDust, WiStrongWind, WiHumidity, WiBarometer } from "react-icons/wi";
 import { IoCloseCircle } from "react-icons/io5";
 
-const API_KEY = "d885aa1d783fd13a55050afeef620fcb"; // Replace with your OpenWeatherMap API key
+// Replace with your OpenWeatherMap API key
+const url = import.meta.env.API_KEY;
 
 const WeatherIcon = ({ weatherMain }) => {
   const iconProps = { className: "w-16 h-16 md:w-24 md:h-24 text-white" };
