@@ -242,7 +242,7 @@ import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiDust, WiStrongWind, WiHumidity,
 import { IoCloseCircle } from "react-icons/io5";
 
 // Replace with your OpenWeatherMap API key
-const url = import.meta.env.API_KEY;
+const APIKEY = import.meta.env.API_KEY;
 
 const WeatherIcon = ({ weatherMain }) => {
   const iconProps = { className: "w-16 h-16 md:w-24 md:h-24 text-white" };
@@ -346,7 +346,7 @@ const WeatherApp = () => {
     setError("");
     try {
       const cityToFetch = defaultCity || city;
-      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityToFetch}&appid=${API_KEY}&units=metric`);
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityToFetch}&appid=${APIKEY}&units=metric`);
       setWeather(response.data);
       setCity(response.data.name);
     } catch (err) {
